@@ -9,19 +9,24 @@
     box-sizing: border-box;
     background-color: black;  
     display: flex;
-    /* position: relative; */
+    position: relative;
 }
 
 
 
 .img-1{
-    padding-top: 0px;
+    
+    /* padding-top: 0px;
     padding-right: 70px;
     padding-bottom: 0px;
-    padding-left: 70px;
-    height: 48vh;         
-    /* border-color: white; */
-    /* border-radius: 10px;    */
+    padding-left: 70px; */
+    height: 45vh;
+    width: 85vw;
+    border: 2px solid black;         
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-right: 70px;  
+    
 }
 
 header{
@@ -70,12 +75,10 @@ header{
     display: flex;   
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: baseline;
+    /* align-items: flex-start; */
     font-size: 13px;
     height: 700px;
-    
-    
-            
+                
 }    
 
 .img{
