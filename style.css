@@ -15,42 +15,26 @@
 
 
 .img-1{
-    
-    /* padding-top: 0px;
-    padding-right: 70px;
-    padding-bottom: 0px;
-    padding-left: 70px; */
-    height: 45vh;
-    width: 85vw;
-    border: 2px solid black;         
-    border-radius: 5px;
-    margin-left: 70px;
-    margin-right: 70px;  
-    
+    height: 47vh;
+    width: 100vw;
 }
 
 header{
-    padding-top: 0px;
-    padding-right: 70px;
-    padding-bottom: 0px;
-    padding-left: 70px;
+    background-color: #FE6F5E;
+    color: white;
+    padding-bottom: 10px;
 }
 
 
 .title{
-    text-align: center;
-    color: white;
-    background-color: #FE6F5E;
-    padding-bottom: 10px;
-    
+    text-align: center;  
 }
 
 .info{
     text-align: left;
-    padding-top: 20px;
-    padding-left: 10px;
-    color: white;
-    font-size: 13px;
+    padding-top: 25px;
+    padding-left: 80px;
+    font-size: 14px;
 }
 
 .info h6:nth-child(even)
@@ -66,42 +50,67 @@ header{
 }
 
 .category{
-    padding-top: 50px;
-    padding-bottom: 20px;
-    padding-left: 4px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    /* padding-left: 4px; */
+    text-align: center;
 }
 
-.flexbox-container{
+.flexbox-container-1{
     display: flex;   
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* align-items: flex-start; */
     font-size: 13px;
-    height: 700px;
-                
+    height: 400px;  
+    flex-basis: 1rem;                    
 }    
+
+.flexbox-container-2{
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 13px;
+    height: 200px;  
+    flex-basis: 1rem;                    
+}    
+
+
 
 .img{
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    width: 180px;
+    height: 120px;
 }
 
 .Item-1{
     border: 2px solid whitesmoke;  
     border-radius: 5px;
-    width: 210px; 
-    height: 210px;
-          
+    width: 180px; 
+    height: 190px;          
 }
 
-.flexbox-container p{
+.flexbox-container-1 p{
+    font-size: 9px;
+    padding-top: 5px;     
+}
+
+.flexbox-container-2 p{
     font-size: 9px;
     padding-top: 5px;     
 }
 
 .Item-1 h6{
     font-size: 10px;
-    padding-top: 10px;    
+    padding-top: 10px; 
+    float:left;
 }
 
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
     
